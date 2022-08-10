@@ -1,11 +1,11 @@
 export const projects = [
   {
-    title: 'MERN Memories',
-    description: "Using React, Node.js, Express & MongoDB you'll learn how to build a Full Stack MERN Application - from start to finish. The App is called Memories and it is a simple social media app that allows users to post interesting events that happened in their lives.",
-      image: '/images/1.png',
-      tags: ['Mongo', 'Express', 'React', 'Node'],
-    source: 'https://google.com',
-    visit: 'https://google.com',
+    title: 'Travel helper',
+    description: "Advanced Travel helper Application using Google Maps. With Geolocation, Google Maps API, Searching for places, Fetching restaurants, hotels and attractions based on location from specialized Rapid APIs, data filtering and much more.",
+      image: '/images/travelApp.png',
+      tags: ['React', 'JavaScript', 'Material UI', 'HTML5'],
+    visit: 'https://github.com/Sayalikkd/Travel-Helper-app',
+    source: 'http://travel-helper-ssk.netlify.app/',
     id: 0,
   },
   {
@@ -38,9 +38,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+  { year: 2017, text: 'Started my journey with Tata Consultancy Service, India as an Application Developer', },
+  // { year: 2018, text: 'Worked as a Frontend developer', },
+  // { year: 2019, text: 'Founded JavaScript Mastery', },
+  { year: 2020, text: 'Moved to Germany for pursuing Masters degree in Software Technology', },
+  { year: 2021, text: 'Started working as a UI/UX developer in Smart Digital GmbH', },
+  { year: 2022, text: 'Starting my professional career in Germany', }
 ];
