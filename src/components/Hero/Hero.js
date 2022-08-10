@@ -1,20 +1,23 @@
 import React from 'react';
+import Image from "next/image";
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
-import { LeftSection } from './HeroStyles';
+import { LeftSection, RightSection } from './HeroStyles';
 
 const Hero = (props) => (
   <Section row nopadding>
     <LeftSection>
       <SectionTitle main center>
-        Welcome to <br/>
-        My Portfolio
+        Hi, I am <br/>
+        Sayali Kakade
       </SectionTitle>
       <SectionText>
-        The purpose of JS mastery is blah blah, my value proposition
+        Frontend developer | Creative | Self-motivated | Explorer
       </SectionText>
-      <Button onClick={() => window.location = "https://google.com"}>Learn More</Button> 
+      <a href='#projects'>
+        <Button>Learn more </Button>  
+      </a> 
     </LeftSection>
   </Section>
 );
