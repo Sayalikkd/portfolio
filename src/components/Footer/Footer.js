@@ -19,7 +19,7 @@ const Footer = () => {
       </LinkList>
       <SocialIconsContainer>
         <CompanyContainer>
-          <Slogan>One project innovation at a time</Slogan>
+          <Slogan>Being innovative is the key!    <span style={{marginLeft: "2rem"}}> ©2022|Sayali kakade </span></Slogan>
         </CompanyContainer>
         <SocialContainer>
         <SocialIcons href="https://github.com/Sayalikkd">

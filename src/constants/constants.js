@@ -33,5 +33,5 @@ export const TimeLineData = [
   { year: 2017, text: 'Started my journey with Tata Consultancy Service, India as an Application Developer', },
   { year: 2020, text: 'Moved to Germany for pursuing Masters degree in Software Technology', },
   { year: 2021, text: 'Started working as a UI/UX developer in Smart Digital GmbH', },
-  { year: 2022, text: 'Starting my professional career in Germany', }
+  { year: 2022, text: 'Completed Masters & starting my professional career in Germany', }
 ];

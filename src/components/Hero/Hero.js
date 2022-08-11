@@ -1,9 +1,9 @@
 import React from 'react';
-import Image from "next/image";
 
 import { Section, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import Button from '../../styles/GlobalComponents/Button';
 import { LeftSection, RightSection } from './HeroStyles';
+import { Img } from '../Projects/ProjectsStyles';
 
 const Hero = (props) => (
   <Section row nopadding>
@@ -12,6 +12,7 @@ const Hero = (props) => (
         Hi, I am <br/>
         Sayali Kakade
       </SectionTitle>
+      {/* <Img src="/public/images/profilePic.png"/> */}
       <SectionText>
         Frontend developer | Creative | Self-motivated | Explorer
       </SectionText>
